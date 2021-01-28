@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1,
+h2 {
+    margin:0; 
+    font-size:inherit; 
+    font-weight:inherit;
+}
+
+p {
+    margin:0;
+}
