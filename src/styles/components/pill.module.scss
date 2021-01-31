@@ -1,0 +1,10 @@
+@use "sass:map";
+@use '../utils/variables';
+
+.pill {
+  background-color: variables.$orange;
+  max-width: fit-content;
+  color: variables.$white;
+  font-size: map.get(variables.$font-sizes, 3);
+  padding: map.get(variables.$spacing, 1) map.get(variables.$spacing, 2);
+}

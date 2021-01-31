@@ -1,0 +1,17 @@
+@use "sass:map";
+@use '../utils/variables';
+
+.button {
+  color: variables.$white;
+  background: linear-gradient(to right, variables.$purple 50%, variables.$orange 50%);
+  background-position: right bottom;
+  background-size: 200% 100%;
+  font-size: map.get(variables.$spacing, 3);;
+  padding: map.get(variables.$spacing, 2) map.get(variables.$spacing, 3);
+  border-radius: 10px;
+  transition: background-position 0.4s ease-in-out;
+}
+
+.button:hover {
+  background-position: left bottom;
+}

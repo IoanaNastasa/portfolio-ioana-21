@@ -1,0 +1,7 @@
+@use "sass:map";
+@use '../utils/variables';
+
+.frame {
+  min-height: 100vh;
+  border: 20px solid variables.$purple;
+}
